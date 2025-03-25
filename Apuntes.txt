@@ -1,0 +1,18 @@
+public → Se puede acceder desde cualquier parte.
+private → Solo accesible dentro de la misma clase.
+protected → Solo accesible dentro de la clase y sus subclases.
+
+Clases Normales
+Son las más básicas. Puedes instanciarlas directamente y definir propiedades y métodos sin restricciones.
+
+Herencia
+Permite que una clase hija herede propiedades y métodos de una clase padre, evitando repetir código.
+
+
+Clases Abstractas
+Son clases que NO se pueden instanciar directamente y deben ser heredadas. Sirven como una plantilla para otras clases.
+Reglas de las Clases Abstractas:
+✅ Pueden contener métodos normales y abstractos.
+✅ Los métodos abstractos NO tienen cuerpo, solo la declaración.
+✅ Las clases hijas deben implementar los métodos abstractos.
+
